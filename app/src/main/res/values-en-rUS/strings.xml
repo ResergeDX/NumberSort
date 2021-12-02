@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NumberSort</string>
+    <string name="title">Enter the numbers to sort</string>
+    <string name="numberLen">Limit 5 digits</string>
+    <string name="getNumber">Save</string>
+    <string name="sortAsc">Ascending</string>
+    <string name="clear">Clear List</string>
+    <string name="sortDes">Descending</string>
+    <string name="number">00000</string>
+    <string name="ErrorNumber">Enter a number</string>
+    <string name="NoInfoList">No list Information</string>
+    <string name="ListCleared">List Cleared</string>
+</resources>

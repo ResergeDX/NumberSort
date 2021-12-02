@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">NumberSort</string>
+    <string name="title">Ingrese los números a ordenar</string>
+    <string name="numberLen">Máximo 5 dígitos</string>
+    <string name="getNumber">Guardar</string>
+    <string name="sortAsc">Ascendente</string>
+    <string name="sortDes">Descendente</string>
+    <string name="clear">Borrar Lista</string>
+    <string name="number">00000</string>
+    <string name="ErrorNumber">Ingrese un número</string>
+    <string name="NoInfoList">Sin información en la lista</string>
+    <string name="ListCleared">Lista Limpiada</string>
 </resources>
