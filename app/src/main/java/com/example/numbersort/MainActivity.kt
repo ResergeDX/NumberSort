@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             rvListNumbers.adapter = adaptador
         }
     }
-
+    //Guardado del número ingresado por el EditText en la lista
     fun saveNum(view: android.view.View) {
         var info=""
         with(binding) {
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
+    //Ordenamiento Ascendente de la lista (Menor a Mayor)
     fun sortAscend(view: android.view.View) {
         if(number.size>1){
             number.sort()
@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_LONG).show()
         }
     }
+    //Ordenamiento Descendente de la lista (Mayor a Menor)
     fun sortDesc(view: android.view.View) {
         if(number.size>1){
             number.sort()
@@ -57,17 +58,18 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_LONG).show()
         }
     }
+    //Limpieza del contenido de la lista
     fun clearList(view: android.view.View) {
-        if(number.size>1){
+        if(number.size>0){
             number.clear()
             update()
-            Toast.makeText(this,R.string.ListCleared,Toast.LENGTH_LONG).show()
+            Toast.makeText(this,R.string.ListCleared,Toast.LENGTH_SHORT).show()
         }else{
-            Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_LONG).show()
+            Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_SHORT).show()
         }
 
     }
-
+    //Actualización del Recyclerview con respecto a la lista
     private fun update(){
         binding.rvListNumbers.adapter = Adaptador(this@MainActivity,number)
     }

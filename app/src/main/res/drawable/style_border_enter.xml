@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-XML para el fondo personalizado de los números del Recyclerview
+XML para el fondo personalizado del EditText
 https://developer.android.com/guide/topics/resources/drawable-resource?hl=es-419#Shape
 -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"

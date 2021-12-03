@@ -9,7 +9,7 @@
     <string name="sortDes">Descending</string>
     <string name="number">00000</string>
     <string name="ErrorNumber">Enter a number</string>
-    <string name="NoInfoList">No list Information</string>
+    <string name="NoInfoList">No list Information. Please, add numbers</string>
     <string name="ListCleared">List Cleared</string>
     <string name="OneListItem">There is only 1 number. Add more.</string>
 </resources>
