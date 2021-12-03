@@ -1,20 +1,33 @@
-# Proyecto02_RezaSergio
-Proyecto enfocado en la creación de una app en Android Studio
+# Proyecto 02 
+## Alumno: Reza Chavarria Sergio Gabriel
 
-Este proyecto consiste en la obtención números másimos de 5 digitos, el usuario podrá elegir el tipo de ordenamiento que tendrán los números ingresados, ascendente o descendente.
+Proyecto enfocado en la creación de una app en Android Studio.
 
+Este proyecto consiste en la obtención de múltiples números (máximos de 5 digitos) y estos seran mostrados en una lista (RecyclerView), el usuario podrá elegir el tipo de ordenamiento que tendrán los números ingresados, ascendente o descendente, y se mostrará en la misma lista.
+Además, el usuario podrá limpiar el contenido de la lista.
 
 ### Visualización de pruebas
 #### Español
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/FirstView.jpeg" alt="img" width="200" height="400" /><br>
-#### Inglés
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/English.jpeg" alt="img" width="200" height="400" /><br>
+<p align="center">
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/FirstView.jpg" alt="img" width="300" height="500" />
+</p>
 
+#### Inglés
+<p align="center">
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/English.jpg" alt="img" width="300" height="500" />
+</p>
 ###Pruebas
+
 Agregado de números en la lista del RecyclerView
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/AddNumbers.jpeg" alt="img" width="200" height="400" /><br>
-Ordenamiento Ascendente y Descendente
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/Ascendente.jpeg" alt="img" width="200" height="400" /><br>
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/Descendente.jpeg" alt="img" width="200" height="400" /><br>
+<p align="center">
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/AddNumbers.jpg" alt="img" width="300" height="500" />
+</p>
+Ordenamiento Ascendente (Menor a Mayor) y Descendente (Mayor a Menor
+<p align="center">
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/Ascendente.jpg" alt="img" width="300" height="500" />
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/Descendente.jpg" alt="img" width="300" height="500" />
+</p>
 Limpieza de la Lista
-<img src="https://github.com/ResergeDX/NumberSort/blob/master/about/ClearList.jpeg" alt="img" width="200" height="400" /><br>
+<p align="center">
+  <img src="https://github.com/ResergeDX/NumberSort/blob/master/about/ClearList.jpg" alt="img" width="300" height="500" />
+</p>
