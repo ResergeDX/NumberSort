@@ -25,13 +25,15 @@
 
     <EditText
         android:id="@+id/etNumber"
-        android:layout_width="182dp"
+        android:layout_width="148dp"
         android:layout_height="48dp"
+        android:background="@drawable/style_border_enter"
         android:ems="10"
         android:fontFamily="@font/storytime"
         android:hint="@string/numberLen"
-        android:inputType="number"
+        android:inputType="numberSigned"
         android:maxLength="5"
+        android:textAlignment="center"
         android:textColor="@color/cardview_light_background"
         android:textColorHint="@color/material_on_primary_emphasis_medium"
         android:textSize="20sp"
@@ -40,14 +42,13 @@
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.148" />
 
     <Button
         android:id="@+id/btnSubmitNumber"
-        android:layout_width="128dp"
-        android:layout_height="49dp"
-        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_width="109dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button"
         android:fontFamily="@font/storytime"
         android:onClick="saveNum"
         android:text="@string/getNumber"
@@ -56,30 +57,33 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.857"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.152" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvListNumbers"
-        android:layout_width="327dp"
-        android:layout_height="380dp"
+        android:layout_width="260dp"
+        android:layout_height="331dp"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.458" />
+        app:layout_constraintVertical_bias="0.47" />
 
     <Button
         android:id="@+id/btnAscend"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_sorts"
         android:fontFamily="@font/storytime"
         android:onClick="sortAscend"
         android:text="@string/sortAsc"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,13 +94,14 @@
 
     <Button
         android:id="@+id/btnDescend"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_sorts"
         android:fontFamily="@font/storytime"
         android:onClick="sortDesc"
         android:text="@string/sortDes"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,14 +111,16 @@
         app:layout_constraintVertical_bias="0.825" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnClearList"
         android:layout_width="174dp"
         android:layout_height="59dp"
-        android:backgroundTint="@color/purple_200"
+        android:background="@drawable/button_clear"
+        android:backgroundTintMode="src_over"
         android:fontFamily="@font/storytime"
         android:onClick="clearList"
         android:text="@string/clear"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -121,4 +128,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

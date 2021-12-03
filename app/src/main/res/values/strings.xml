@@ -10,4 +10,5 @@
     <string name="ErrorNumber">Ingrese un número</string>
     <string name="NoInfoList">Sin información en la lista</string>
     <string name="ListCleared">Lista Limpiada</string>
+    <string name="OneListItem">Solo hay 1 número. Agregue más.</string>
 </resources>

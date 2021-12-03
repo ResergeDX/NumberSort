@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        number.add(0)
+        //number.add(0)
         val adaptador= Adaptador(this@MainActivity,number)
         with(binding) {
             rvListNumbers.layoutManager = LinearLayoutManager(this@MainActivity)
@@ -40,6 +40,8 @@ class MainActivity : AppCompatActivity() {
         if(number.size>1){
             number.sort()
             update()
+        }else if(number.size==1){
+            Toast.makeText(this, R.string.OneListItem, Toast.LENGTH_LONG).show()
         }else{
             Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_LONG).show()
         }
@@ -49,6 +51,8 @@ class MainActivity : AppCompatActivity() {
             number.sort()
             number.reverse()
             update()
+        }else if(number.size==1){
+            Toast.makeText(this, R.string.OneListItem, Toast.LENGTH_LONG).show()
         }else{
             Toast.makeText(this, R.string.NoInfoList, Toast.LENGTH_LONG).show()
         }

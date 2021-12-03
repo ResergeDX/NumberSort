@@ -4,9 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/button.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/button_clear.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/button_sorts.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/style_border.xml" value="0.1" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/style_border_button_sort.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/style_border_enter.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/style_border_number.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/drawable/style_button_save.xml" value="0.21927083333333333" />
         <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/layout/number_element.xml" value="0.25" />
+        <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/layout/number_element.xml" value="0.33" />
         <entry key="..\:/Users/Sergio/Desktop/CM/ProyectoComputoMovil/02_Project_Reza_Sergio/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21927083333333333" />
       </map>
     </option>

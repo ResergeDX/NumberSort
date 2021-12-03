@@ -11,4 +11,5 @@
     <string name="ErrorNumber">Enter a number</string>
     <string name="NoInfoList">No list Information</string>
     <string name="ListCleared">List Cleared</string>
+    <string name="OneListItem">There is only 1 number. Add more.</string>
 </resources>
